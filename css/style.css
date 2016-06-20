@@ -47,7 +47,7 @@ h1 {
 	background-position: center center;
 }
 
-.mobile {
+.hidden {
 	display: none;
 }
 
@@ -100,8 +100,15 @@ h1 {
 	h1.logo {
 		display: none;
 	}
-	h1.logo.hidden {
+	h1.hidden {
 		display: block;
-		font-size: 2.6625rem;
+		font-weight: bold;
+		font-style: inherit;
+		font-size: 3.5625rem;
+		line-height: 4.5rem;
+		margin-top: 1.5rem;
+		margin-bottom: 0rem;
+		text-align: center;
+		color: #fff;
 	}
 }

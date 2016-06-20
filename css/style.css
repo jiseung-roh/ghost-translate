@@ -12,6 +12,7 @@ html {
 }
 
 body {
+	box-sizing: content-box;
 	background-color: #2c3e50;
 	padding-bottom: 3rem;
 }
@@ -51,9 +52,10 @@ h1 {
 	margin: 1.5rem auto;
 	padding: 1rem;
 	border: none;
+	outline: none;
 	border-bottom: 1px solid #fff;
-	width: 70%;
-	height: 100px;
+	width: 80%;
+	min-height: 100px;
 	background-color: rgba(0,0,0,0);
 	font-size: 1rem;
 	font-weight: 300;
@@ -84,8 +86,14 @@ h1 {
 
 .result {
 	margin-top: 2rem;
-	height: 200px;
 	color: #fff;
 	text-align: center;
 	font-weight: 300;
+}
+
+/* RESPONSIVE */
+@media (max-width: 550px) {
+	h1 {
+		font-size: 2.6625rem;
+	}
 }

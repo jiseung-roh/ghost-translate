@@ -47,6 +47,10 @@ h1 {
 	background-position: center center;
 }
 
+.mobile {
+	display: none;
+}
+
 .ghost {
 	display: block;
 	margin: 1.5rem auto;
@@ -93,7 +97,11 @@ h1 {
 
 /* RESPONSIVE */
 @media (max-width: 550px) {
-	h1 {
+	h1.logo {
+		display: none;
+	}
+	h1.logo.hidden {
+		display: block;
 		font-size: 2.6625rem;
 	}
 }
